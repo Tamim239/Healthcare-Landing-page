@@ -22,7 +22,7 @@ export const Navbar = () => {
 
   return (
     <nav className="bg-white md:w-4/5 mx-auto">
-  <div className="">
+  <div>
     <div className="flex h-16 items-center justify-between">
       <div className="md:flex md:items-center md:gap-12">
         <a className="block text-teal-600" href="#">

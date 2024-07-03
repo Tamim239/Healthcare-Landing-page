@@ -29,8 +29,8 @@ export const Help_Solution = () => {
         </div>
         {/* right side */}
         <div className='md:w-1/2 relative'>
-            <img src={solution} alt="" />
-            <div className='h-48 w-96 rounded-3xl bg-[#343268] px-8 py-8 space-y-2 md:absolute right-1/2 -bottom-8'>
+            <img src={solution} alt="" className=''/>
+            <div className='h-48 md:w-96 rounded-3xl bg-[#343268] px-8 py-8 space-y-2 md:absolute right-1/2 -bottom-8'>
                 <h1 className='text-2xl font-medium text-white'>Our mission is simple</h1>
                 <p className='text-gray-400'>To provide high-quality healthcare services that are accessible, personalized, and patient-centered.</p>
             </div>

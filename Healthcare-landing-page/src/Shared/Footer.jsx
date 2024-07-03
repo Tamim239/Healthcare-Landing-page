@@ -3,7 +3,7 @@ import logoLight from '../assets/logo light.png'
 
 export const Footer = () => {
   return (
-    <footer className="px-4 divide-y bg-[#020043] text-white">
+    <footer className=" divide-y bg-[#020043] text-white">
 	<div className=" w-4/5 mx-auto container flex flex-col justify-between py-20 space-y-8 lg:flex-row lg:space-y-0 ">
 		<div className="lg:w-1/3">
 			<a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
