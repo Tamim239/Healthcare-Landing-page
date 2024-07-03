@@ -2,7 +2,7 @@ import { FaStar } from "react-icons/fa6";
 
 export const Review = () => {
   return (
-    <div>
+    <div className="max-sm:my-10">
       <div className="border border-[#343268] rounded-full inline-block py-2 px-4 ">
         <p>Testimonial</p>
       </div>
@@ -108,9 +108,9 @@ export const Review = () => {
           </div>
         </section>
         <div className="flex justify-center gap-3 items-center">
-        <div className="badge badge-ghost badge-xs"></div>
+        <div className="badge bg-gray-400 badge-xs"></div>
         <div className="badge bg-yellow-400 badge-xs"></div>
-        <div className="badge badge-ghost badge-xs"></div>
+        <div className="badge bg-gray-400 badge-xs"></div>
         </div>
       </div>
     </div>
