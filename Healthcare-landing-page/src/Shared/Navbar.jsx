@@ -21,7 +21,7 @@ export const Navbar = () => {
   );
 
   return (
-    <nav className="bg-white">
+    <nav className="bg-white md:w-4/5 mx-auto">
   <div className="">
     <div className="flex h-16 items-center justify-between">
       <div className="md:flex md:items-center md:gap-12">
@@ -30,7 +30,6 @@ export const Navbar = () => {
           <img src={logoDark} alt="" className=" w-20 md:h-8 md:w-28"/>
         </a>
       </div>
-
       <div className="hidden md:block">
         <nav aria-label="Global">
           <ul className="flex items-center gap-6 text-sm text-black">

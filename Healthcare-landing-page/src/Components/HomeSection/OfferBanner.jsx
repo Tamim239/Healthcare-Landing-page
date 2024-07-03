@@ -20,13 +20,13 @@ export const OfferBanner = () => {
       <h1 className="text-4xl font-medium text-white leading-snug">Get Your <br /> First Appointment <br /> at 50% Off!</h1>
       <div className="flex gap-1 sm:gap-4 mt-5">
         <a
-          className=" flex items-center gap-1 max-sm:justify-center bg-[#ffc637] rounded-xl px-5 py-2.5 font-medium  shadow"
+          className=" flex items-center gap-1 max-sm:justify-center bg-[#ffc637] rounded-xl px-4 py-2.5 font-medium  shadow"
           href="#"
         >
           Appointment <IoArrowUpOutline className="rotate-45 text-xl" />
         </a>
         <a
-          className=" flex items-center gap-1 max-sm:justify-center border border-white text-white rounded-xl px-5 py-2.5 font-medium  shadow"
+          className=" flex items-center gap-1 max-sm:justify-center border border-white text-white rounded-xl px-4 py-2.5 font-medium  shadow"
           href="#"
         >
           Learn more <IoArrowUpOutline className="rotate-45 text-xl" />
