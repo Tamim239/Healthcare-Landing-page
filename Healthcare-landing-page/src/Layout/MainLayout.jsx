@@ -4,10 +4,10 @@ import { Footer } from "../Shared/Footer";
 
 export const MainLayout = () => {
   return (
-    <div className="w-4/5 mx-auto">
+    <div className=" max-sm:px-2 md:w-4/5 mx-auto">
       {/* navbar */}
       <Navbar />
-      <div>
+      <div className="text-[#020043]">
         <Outlet />
       </div>
       {/* footer */}

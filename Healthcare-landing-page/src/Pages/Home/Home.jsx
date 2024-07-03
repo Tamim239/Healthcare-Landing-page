@@ -1,4 +1,5 @@
 import { Banner } from "../../Components/HomeSection/Banner"
+import { Help_Solution } from "../../Components/HomeSection/Help_Solution"
 import { Stats } from "../../Components/HomeSection/Stats"
 
 export const Home = () => {
@@ -6,6 +7,7 @@ export const Home = () => {
     <div>
         <Banner />
         <Stats />
+        <Help_Solution />
     </div>
   )
 }
